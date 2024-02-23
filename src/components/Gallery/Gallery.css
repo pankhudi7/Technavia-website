@@ -1,0 +1,30 @@
+.gallery-container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  margin-top: 30px;
+  padding-top: 30px; 
+
+}
+
+.image-gallery {
+  display: flex;
+  animation: marquee 20s linear infinite;
+  margin: 0;
+  padding: 0;
+}
+
+.image-gallery img {
+  height: 75%;
+  width: 75%;
+  margin-right: 20px;
+}
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

@@ -1,0 +1,11 @@
+.fadebox{
+    margin-top: 120px;
+    margin-bottom: 80px;
+    padding-top:50px;
+    display: flex;
+    height: max-content ;
+    width: 100%;
+}
+
+
+
